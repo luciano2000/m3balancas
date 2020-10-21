@@ -4043,9 +4043,11 @@ input[type=button].btn-block {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  /*
   position: relative;
   top: -20px;
-}
+  */
+  }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
 }
