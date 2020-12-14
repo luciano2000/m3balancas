@@ -7720,7 +7720,7 @@ button.bg-dark:focus {
 
 .pt-3,
 .py-3 {
-  padding-top: 1rem !important;
+  padding-top: 1.6rem !important; // era 1
 }
 
 .pr-3,
@@ -7730,7 +7730,7 @@ button.bg-dark:focus {
 
 .pb-3,
 .py-3 {
-  padding-bottom: 1rem !important;
+  padding-bottom: 1.6rem !important; //era 1
 }
 
 .pl-3,
@@ -10082,7 +10082,7 @@ hr.light {
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #f7f7f7;
-    padding: 5px;
+    padding: 6px;
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
