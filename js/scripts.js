@@ -48,15 +48,19 @@
   $('#portfolio').magnificPopup({
     delegate: 'a',
     type: 'image',
-    tLoading: 'Loading image #%curr%...',
+    tLoading: 'Carregando Imagem #%curr%...',
     mainClass: 'mfp-img-mobile',
     gallery: {
+
+      tPrev: 'Anterior', // title for left button
+      tNext: 'Próxima', // title for right button
+      tCounter: '<span class="mfp-counter">%curr% de %total%</span>'
       enabled: true,
       navigateByImgClick: true,
       preload: [0, 1]
     },
     image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+      tError: '<a href="%url%">A Imagem #%curr%</a> não pôde ser carregada.'
     }
   });
 
