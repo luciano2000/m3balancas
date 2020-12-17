@@ -54,7 +54,7 @@
 
       tPrev: 'Anterior', // title for left button
       tNext: 'Próxima', // title for right button
-      tCounter: '<span class="mfp-counter">%curr% de %total%</span>'
+      tCounter: '<span class="mfp-counter">%curr% de %total%</span>',
       enabled: true,
       navigateByImgClick: true,
       preload: [0, 1]
