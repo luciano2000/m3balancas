@@ -563,7 +563,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1130px; //1140
+    max-width: 1130px; /* 1140  */
   }
 }
 
@@ -2476,7 +2476,7 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #2b5784; //f24516
+  background-color: #2b5784; /* f24516 */
   border-color: #ee3e0d;
 }
 .btn-primary:focus, .btn-primary.focus {
@@ -6099,7 +6099,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1b4774 !important; //f4623a
+  background-color: #1b4774 !important; /* f4623a */
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6169,7 +6169,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #1b1b1b !important; //343a40
+  background-color: #1b1b1b !important; /* 343a40 */
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -7720,7 +7720,7 @@ button.bg-dark:focus {
 
 .pt-3,
 .py-3 {
-  padding-top: 1.6rem !important; // era 1
+  padding-top: 1.6rem !important; /* era 1 */
 }
 
 .pr-3,
@@ -7730,7 +7730,7 @@ button.bg-dark:focus {
 
 .pb-3,
 .py-3 {
-  padding-bottom: 1.6rem !important; //era 1
+  padding-bottom: 1.6rem !important; /* era 1 */
 }
 
 .pl-3,
@@ -9801,11 +9801,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #2b5784 !important; //#f4623a
+  color: #2b5784 !important; /* #f4623a */
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #29649e !important; //#d6370c 
+  color: #29649e !important; /* #d6370c */ 
 }
 
 .text-secondary {
@@ -10032,7 +10032,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 9rem 0; //era 8
+  padding: 9rem 0; /* era 8 */
 }
 
 #mainNav {
@@ -10149,7 +10149,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(43, 87, 132, 0.9); //(244, 98, 58, 0.9);
+  background: rgba(43, 87, 132, 0.9); /* (244, 98, 58, 0.9); */
   transition: opacity 0.25s ease;
   text-align: center;
 }
