@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*!
+/*
 * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
 * Copyright 2013-2020 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
@@ -6099,13 +6099,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1b4774 !important; /* f4623a */
+  background-color: #f7f7f7 !important; /* f4623a */ color: ##212529 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #1b4774 !important;
+  background-color: #f7f7f7 !important;
 }
 
 .bg-secondary {
@@ -6169,7 +6169,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #1b1b1b !important; /* 343a40 */
+  background-color: #f7f7f7 !important; color: ##212529 !important;/* 343a40 */
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
